@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="2f7a57f0-98a7-4e9c-b1cc-aa18777f54e1" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.26c501a6-a939-4460-b6cd-137e3eeffd0a.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="6817d2a0-f384-4cdb-b186-b1fb5fcf952a" Version="1.1" Url="http://www.abv.bg/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="38c5c55c-be1f-459a-83c1-cac263a02f7e" Version="1.1" Url="http://diff3.smartadserver.com/call/pubj/13784/156243/9955/M/9192199068/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.abv.bg/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="832fc3b7-1674-4be1-9f9a-b4399d71a9d8" Version="1.1" Url="http://www.abv.bg/home/sinoptik/search_ip" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://www.abv.bg/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="e344a182-ea24-4bff-917d-2c3d53cc23d4" Version="1.1" Url="http://ca.abv.bg/piwik.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.abv.bg/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="action_name" Value="%D0%90%D0%91%D0%92%20%D0%9F%D0%BE%D1%89%D0%B0" RecordedValue="%D0%90%D0%91%D0%92%20%D0%9F%D0%BE%D1%89%D0%B0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="idsite" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="rec" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="r" Value="094104" RecordedValue="094104" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="h" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="m" Value="40" RecordedValue="40" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="s" Value="12" RecordedValue="12" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="url" Value="http%3A%2F%2Fwww.abv.bg%2F" RecordedValue="http%3A%2F%2Fwww.abv.bg%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="urlref" Value="http%3A%2F%2Fwww.google.bg%2Furl%3Fsa%3Dt%26rct%3Dj%26q%3D%26esrc%3Ds%26source%3Dweb%26cd%3D1%26ved%3D0CCEQFjAA%26url%3Dhttp%253A%252F%252Fwww.abv.bg%252F%26ei%3D-0PBVNn5BoL1UrDTgeAG%26usg%3DAFQjCNEVbkT48sxFNWYfYqKNx8r3wg74xw%26bvm%3Dbv.83829542%2Cd.d24" RecordedValue="http%3A%2F%2Fwww.google.bg%2Furl%3Fsa%3Dt%26rct%3Dj%26q%3D%26esrc%3Ds%26source%3Dweb%26cd%3D1%26ved%3D0CCEQFjAA%26url%3Dhttp%253A%252F%252Fwww.abv.bg%252F%26ei%3D-0PBVNn5BoL1UrDTgeAG%26usg%3DAFQjCNEVbkT48sxFNWYfYqKNx8r3wg74xw%26bvm%3Dbv.83829542%2Cd.d24" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="_id" Value="1bfd97725ee91377" RecordedValue="1bfd97725ee91377" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="_idts" Value="1421952012" RecordedValue="1421952012" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="_idvc" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="_idn" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="_refts" Value="1421952012" RecordedValue="1421952012" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="_viewts" Value="1421952012" RecordedValue="1421952012" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="_ref" Value="http%3A%2F%2Fwww.google.bg%2Furl%3Fsa%3Dt%26rct%3Dj%26q%3D%26esrc%3Ds%26source%3Dweb%26cd%3D1%26ved%3D0CCEQFjAA%26url%3Dhttp%253A%252F%252Fwww.abv.bg%252F%26ei%3D-0PBVNn5BoL1UrDTgeAG%26usg%3DAFQjCNEVbkT48sxFNWYfYqKNx8r3wg74xw%26bvm%3Dbv.83829542%2Cd.d24" RecordedValue="http%3A%2F%2Fwww.google.bg%2Furl%3Fsa%3Dt%26rct%3Dj%26q%3D%26esrc%3Ds%26source%3Dweb%26cd%3D1%26ved%3D0CCEQFjAA%26url%3Dhttp%253A%252F%252Fwww.abv.bg%252F%26ei%3D-0PBVNn5BoL1UrDTgeAG%26usg%3DAFQjCNEVbkT48sxFNWYfYqKNx8r3wg74xw%26bvm%3Dbv.83829542%2Cd.d24" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="send_image" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="pdf" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="qt" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="realp" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="wma" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="dir" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="fla" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="java" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="gears" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ag" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cookie" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="res" Value="1440x900" RecordedValue="1440x900" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="gt_ms" Value="5" RecordedValue="5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://www.google.bg/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;ved=0CCEQFjAA&amp;url=http%3A%2F%2Fwww.abv.bg%2F&amp;ei=-0PBVNn5BoL1UrDTgeAG&amp;usg=AFQjCNEVbkT48sxFNWYfYqKNx8r3wg74xw&amp;bvm=bv.83829542,d.d24" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="71aace9b-5bed-4995-a213-da11c6c7a554" Version="1.1" Url="http://www.abv.bg/banner_300x250.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="6e2151f5-b1e9-4337-91b3-9611ca5ffbf9" Version="1.1" Url="http://diff3.smartadserver.com/call/pubj/13784/99400/6062/M/6892895314/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="iso-8859-1" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://diff3.smartadserver.com/diff/363/3908491/show2.asp?3908491;99400;0;6892895314;V;systemtarget=%24qc%3d1307001321%3b%24ql%3dunknown%3b%24qpc%3d1000%3b%24qpp%3d0%3b%24qt%3d9_2302_29247t%3b%24dma%3d0%3b%24b%3d11110%3b%24o%3d11063" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.abv.bg/banner_300x250.html" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://www.abv.bg/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="0dbb0f0c-2b0b-41b6-9a05-d96735b470c7" Version="1.1" Url="http://ls.hit.gemius.pl/lsget.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.abv.bg/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="6bb67d3f-2a3e-4e74-8590-1f1c01c63856" Version="1.1" Url="http://bimg.abv.bg/banners/inhouse/sravni-redesign/html-300x250/index.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="dd8e9aa1-1bec-45e0-96db-5c8330379076" Version="1.1" Url="http://bimg.abv.bg/banners/inhouse/sravni/banners.xml" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/xml, text/xml, */*; q=0.01" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://bimg.abv.bg/banners/inhouse/sravni-redesign/html-300x250/index.html?clickTag=http://diff3.smartadserver.com/clic/countgo.asp?3908491;99400;0;6892895314;V;systemtarget=%24qc%3d1307001321%3b%24ql%3dunknown%3b%24qpc%3d1000%3b%24qpp%3d0%3b%24qt%3d9_2302_29247t%3b%24dma%3d0%3b%24b%3d11110%3b%24o%3d11063;12112781;URL=&amp;clickTarget=_blank" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="_" Value="1421952012156" RecordedValue="1421952012156" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://www.abv.bg/banner_300x250.html" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="clickTag" Value="http://diff3.smartadserver.com/clic/countgo.asp?3908491;99400;0;6892895314;V;systemtarget=%24qc%3d1307001321%3b%24ql%3dunknown%3b%24qpc%3d1000%3b%24qpp%3d0%3b%24qt%3d9_2302_29247t%3b%24dma%3d0%3b%24b%3d11110%3b%24o%3d11063;12112781;URL=" RecordedValue="http://diff3.smartadserver.com/clic/countgo.asp?3908491;99400;0;6892895314;V;systemtarget=%24qc%3d1307001321%3b%24ql%3dunknown%3b%24qpc%3d1000%3b%24qpp%3d0%3b%24qt%3d9_2302_29247t%3b%24dma%3d0%3b%24b%3d11110%3b%24o%3d11063;12112781;URL=" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clickTarget" Value="_blank" RecordedValue="_blank" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="e6fb8f9c-e60f-4208-a43e-d9e616a77cfb" Version="1.1" Url="http://www.abv.bg/home/sinoptik/location_cc/100727011" ThinkTime="8" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://www.abv.bg/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="_" Value="1421952012210" RecordedValue="1421952012210" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="fa627413-93a5-47e1-bb46-3c567d3c2117" Version="1.1" Url="http://bimg.abv.bg/banners/9000/grabo/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="4281d151-1f86-4005-b551-26d3599c3383" Version="1.1" Url="http://reklama.wisdom.bg/www/delivery/ajs.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://bimg.abv.bg/banners/9000/grabo/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="zoneid" Value="197" RecordedValue="197" CorrelationBinding="{{QueryStringParam3373.zoneid}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cb" Value="27852623048" RecordedValue="27852623048" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="charset" Value="utf-8" RecordedValue="utf-8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="loc" Value="http%3A//bimg.abv.bg/banners/9000/grabo/" RecordedValue="http%3A//bimg.abv.bg/banners/9000/grabo/" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="referer" Value="http%3A//www.abv.bg/" RecordedValue="http%3A//www.abv.bg/" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://www.abv.bg/" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam3373.zoneid" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?zoneid=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="GET" Guid="4b50a9f5-9c8e-4ae1-be00-abe7f6aa96e1" Version="1.1" Url="http://bimg.abv.bg/banners/inhouse/sravni/html-465x150/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.abv.bg/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="b218208b-6d7a-4a95-95a4-8e0dd70066c8" Version="1.1" Url="http://bimg.abv.bg/banners/inhouse/sravni/banners.xml" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/xml, text/xml, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://bimg.abv.bg/banners/inhouse/sravni/html-465x150/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="_" Value="1421952020427" RecordedValue="1421952020427" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="c1377693-e269-4105-bd76-42d69f6a840a" Version="1.1" Url="http://b.grabo.bg/netinfo/special/abv_home_465x150_combined/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://bimg.abv.bg/banners/9000/grabo/" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam3463.clickurl" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;clickurl=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam3462.affid" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?affid=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="5" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="current" Value="trendo" RecordedValue="trendo" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="r" Value="61192" RecordedValue="61192" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="netinfogroup" Value="{netinfogroup}" RecordedValue="{netinfogroup}" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="b6a2ded5-8e7b-4984-820c-fe23e611124e" Version="1.1" Url="http://trendo.bg/banners/463x112" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://b.grabo.bg/netinfo/special/abv_home_465x150_combined/?current=trendo&amp;r=61192&amp;netinfogroup={netinfogroup}" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="affid" Value="222" RecordedValue="222" CorrelationBinding="{{QueryStringParam3462.affid}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clickurl" Value="{{QueryStringParam3463.clickurl}}" RecordedValue="http%3A%2F%2Freklama.wisdom.bg%2Fwww%2Fdelivery%2Fck.php%3Foaparams%3D2__bannerid%3D2307__zoneid%3D197__cb%3D50993698__oadest%3Dhttp%253A%252F%252Fa.abv.bg%252Fwww%252Fdelivery%252Fck.php%253Foaparams%253D2__bannerid%253D175807__zoneid%253D63__cb%253D50993698__oadest%253D" CorrelationBinding="{{QueryStringParam3463.clickurl}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>
